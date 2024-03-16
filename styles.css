@@ -1,5 +1,5 @@
 body {
-    background-color: whitesmoke;
+    background-color: white;
     font-family: "Poppins", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -7,11 +7,12 @@ body {
 }
 
 #home {
-    background-color: rgb(105, 252, 164);
 }
 
 .centre {
     text-align: center;
+    border: 1px solid gray ;
+    border-radius: 20px;
 }
 
 div{
@@ -22,4 +23,14 @@ div{
 .image {
     height: auto;
     width: 400px;
+}
+
+.green {
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.list {
+    border: 1px solid gray;
+    border-radius: 3px;
 }
